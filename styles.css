@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  width: 1280px;
+}
+.cabin {
+  height: 700px;
+  background-image: url("assets/cabin.jpg");
+  background-size: cover;
+}
+.cabin-svg {
+  display: flex;
+  justify-content: flex-start;
+  fill: white;
+}
+.cabin-text {
+  color: white;
+}
+table {
+  width: 1200px;
+  height: 480px;
+  padding: 0 40px;
+}
+.table-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: yellow;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 220px;
+  color: white;
+  background-color: black;
+}
+.copyright {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.social-media__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.social-text {
+  display: flex;
+  justify-content: center;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
