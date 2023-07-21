@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+
+html {
+  width: 1280px;
+  scroll-behavior: smooth;
+  padding-top: 94px;
+  scroll-padding-top: 94px;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  width: 1280px;
+  height: 94px;
+  background: #005b96;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+.welcome-section {
+  width: 1280px;
+  height: 720px;
+  background: url(/assets/rough-horn-2146181_1280.jpg),
+    lightgray 50% / cover no-repeat;
+}
+
+.nav-bar__title {
+  color: #fff;
+  font-family: Josefin Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav-bar__links {
+  display: flex;
+  gap: 36px;
+}
+
+.nav-bar__link {
+  color: #fff;
+  font-family: Aleo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.scroll-down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18px;
+    color: #fff;
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 185.714% */
+    letter-spacing: 2.8px;
+    text-decoration: none;
+  }
+}
+
+.welcome-section__box {
+  margin-top: 139px;
+  display: flex;
+  gap: 83px;
+  justify-content: center;
+  align-items: center;
+
+  .welcome-section__title {
+    width: 343px;
+    height: 96px;
+    color: #fff;
+    font-family: Josefin Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .welcome-section__img {
+    width: 487.832px;
+    height: 450px;
+    background: url(/assets/1sb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.5s ease;
+
+    &:hover {
+      width: 487.832px;
+      height: 450px;
+      background: url(/assets/2sb.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+}
+
+.mountain-section {
+  width: 1280px;
+  height: 412px;
+  flex-shrink: 0;
+  background: url(/assets/mountain-peaks.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .mountain-section__text {
+    display: flex;
+    align-self: flex-end;
+    color: #fff;
+    font-family: Josefin Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 343px;
+    height: 96px;
+    flex-shrink: 0;
+  }
+
+  .cabins {
+    width: 1190px;
+    height: 224px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    .cabin-names {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 180px;
+      height: 90px;
+      border-radius: 20px;
+      background: #ff0;
+      color: #000;
+      font-family: Josefin Sans;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-decoration: none;
+    }
+
+    .item-1 {
+      align-self: flex-start;
+    }
+
+    .item-6 {
+      align-self: flex-end;
+    }
+  }
+}
+
+.experience-section {
+  box-sizing: border-box;
+  padding-top: 73px;
+  padding-bottom: 73px;
+  width: 800px;
+  height: 800px;
+  flex-shrink: 0;
+  background: #005b96;
+  margin: auto;
+
+  .experience-box {
+    margin: auto;
+    width: 708px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+
+    .experience-box-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .first {
+      justify-content: space-around;
+    }
+
+    .second {
+      gap: 52px;
+      justify-content: flex-end;
+    }
+
+    .third {
+      justify-content: space-between;
+    }
+
+    .experience-img {
+      box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .img__first {
+      width: 176px;
+      height: 168px;
+      flex-shrink: 0;
+    }
+
+    .img__second {
+      width: 212px;
+      height: 200px;
+      flex-shrink: 0;
+    }
+
+    .img__third {
+      width: 198px;
+      height: 172px;
+      flex-shrink: 0;
+    }
+
+    p {
+      color: #fff;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    .p-1 {
+      width: 461px;
+      font-size: 36px;
+    }
+
+    .p-2 {
+      width: 373px;
+      font-size: 24px;
+    }
+
+    .p-3 {
+      width: 425px;
+      font-size: 16px;
+    }
+  }
+}
+
+.journey-section {
+  width: 1280px;
+  height: 680px;
+  flex-shrink: 0;
+  background: url(/assets/OR4CDH0.jpg);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .journey-section__title {
+    height: 69px;
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .journey-section__p {
+    width: 536px;
+    height: 368px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .journey-section__photo {
+    width: 440px;
+    height: 600px;
+    flex-shrink: 0;
+    border: 8px solid #ff0;
+    background: url(/assets/peak.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.details-section {
+  width: 1280px;
+  height: 700px;
+  flex-shrink: 0;
+  background: url(/assets/cabin.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .icons {
+    display: flex;
+    gap: 20px;
+    padding: 30px 40px;
+  }
+
+  .details-section__text {
+    padding: 30px 10px;
+    color: #fff;
+    font-family: Josefin Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-self: flex-end;
+  }
+}
+
+.table-section {
+  box-sizing: border-box;
+  width: 1280px;
+  height: 600px;
+  flex-shrink: 0;
+  background: #ff0;
+  padding: 34px 40px 14px;
+
+  p {
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 34px;
+  }
+
+  table {
+    box-sizing: border-box;
+    width: 1200px;
+    height: 460px;
+    flex-shrink: 0;
+  }
+
+  table,
+  td,
+  tr {
+    border: 6px solid #000;
+  }
+
+  td {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.footer {
+  width: 1280px;
+  height: 220px;
+  flex-shrink: 0;
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .rights {
+    box-sizing: border-box;
+    padding-left: 22px;
+    width: 380px;
+    height: 33px;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: Calibri;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .follow-sm-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    .follow {
+      width: 128px;
+      height: 33px;
+      flex-shrink: 0;
+      color: #fff;
+      font-family: Calibri;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    .social-media {
+      display: flex;
+      gap: 18px;
+    }
+  }
+
+  .snow {
+    box-sizing: border-box;
+    padding-right: 85px;
+    display: flex;
+    justify-content: flex-end;
+    width: 380px;
+    height: 100px;
+  }
+}
